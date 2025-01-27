@@ -1,0 +1,32 @@
+{
+  "name": "aws-s3-demo",
+  "version": "1.0.0",
+  "description": "Connecting to AWS with Node.js SDK. Upload file to S3 bucket",
+  "main": "app.js",
+  "scripts": {
+    "test": "N/A"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atulk1001/AWS-S3-demo.git"
+  },
+  "keywords": [
+    "AWS",
+    "Node.js",
+    "SDK",
+    "S3 Bucket",
+    "S3 File upload with SDK"
+  ],
+  "author": "Atul Kumar Verma",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/atulk1001/AWS-S3-demo/issues"
+  },
+  "homepage": "https://github.com/atulk1001/AWS-S3-demo#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.735.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-fileupload": "^1.5.1"
+  }
+}
