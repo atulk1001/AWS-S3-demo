@@ -10,7 +10,9 @@ SECRET_ACCESS_KEY
 
 S3_BUCKET
 
-S3_REGION PORT
+S3_REGION
+
+PORT
 
 # ignore .env to .gitignore, .env file should be created envirnment specific
 # do npm install
