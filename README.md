@@ -5,8 +5,11 @@
 # create a S3 bucket in AWS in a region, Keep in the mind that S3 buckets are region specific
 # add follwing keys to .env file
 ACCESS_KEY
+
 SECRET_ACCESS_KEY
+
 S3_BUCKET
+
 S3_REGION PORT
 
 # ignore .env to .gitignore, .env file should be created envirnment specific
