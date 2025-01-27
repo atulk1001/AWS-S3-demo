@@ -16,10 +16,16 @@ PORT
 
 # ignore .env to .gitignore, .env file should be created envirnment specific
 # do npm install
-# Use Postman to run http://localhost:3000/file/upload
+# Use Postman to run 
+
+http://localhost:3000/file/upload
 # select POST method
 # select Body as form-data
+
   key : 'profilePic'
+  
   type : File
+  
   Browse the file you want to upload.
+  
 # 200 OK response for successfull upload
